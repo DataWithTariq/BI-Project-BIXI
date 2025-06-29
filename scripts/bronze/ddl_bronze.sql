@@ -28,9 +28,7 @@ IF OBJECT_ID ('bronze.stations','U') IS NOT NULL
 GO
 CREATE TABLE bronze.stations (
     stations_pk INT,
-    stations_name NVARCHAR(255),
+    stations_name VARCHAR(255) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     stations_latitude FLOAT,
     stations_longitude FLOAT
 );
-
-GO
