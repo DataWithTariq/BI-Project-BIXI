@@ -145,7 +145,7 @@ For academic, non-commercial, and educational use only.
 👋 Hi, I’m Tariq Ladidji, a Business Intelligence & Data Analyst.  
 I specialize in turning raw data into actionable insights through Power BI, SQL, and data modeling.
 
-- 📫 [email] (tariqladidji43@gmail)
+- 📫 [email]tariqladidji43@gmail
 - 💼 [LinkedIn](https://www.linkedin.com/in/tariq-ladidji-b08951311/)
 - 🌐 [Portfolio](https://yourwebsite.com) *(optional)*
 
