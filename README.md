@@ -81,5 +81,77 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
 ---
 
 ## 📁 Repository Structure
+📦 bixi-2021-project/
+
+├── 📁 data/
+│ ├── raw/ # Original datasets (e.g., CSVs from Kaggle)
+│ └── cleaned/ # Cleaned and pre-processed data files
+│
+├── 📁 sql/
+│ ├── create_tables.sql # DDL scripts for staging and gold layers
+│ ├── transformations.sql # Data transformations and view creation
+│ └── sample_queries.sql # Queries used for exploration and reporting
+│
+├── 📁 powerbi/
+│ └── BIXI_2021_Dashboard.pbix # Power BI dashboard file
+│
+├── 📁 docs/
+│ ├── data_catalog.md # Detailed data dictionary for gold layer
+│ └── model_schema.png # ERD or star schema image (optional)
+│
+├── 📁 assets/
+│ ├── dashboard_preview.png # Screenshot(s) of the dashboard
+│ └── station_map.png # Any additional visual content
+│
+└── README.md # Project overview and documentation
+
+
+---
+
+## 📌 Project Highlights
+
+- ✅ Demonstrates **data cleaning, modeling, and reporting** in one cohesive project.
+- ✅ Uses **open public data** to simulate real-world business scenarios.
+- ✅ Emphasizes **geospatial analysis** and time-based metrics.
+- ✅ Tailored for **business intelligence portfolios**, especially in transportation, mobility, or smart cities.
+
+---
+
+## 🚀 Future Improvements
+
+- 🧩 Add weather data for weather/usage correlation.
+- 🗺️ Enrich station metadata (e.g., neighborhoods, capacity).
+- 📱 Publish dashboard to Power BI Service with real-time refresh.
+- 📦 Automate pipeline using Power BI Gateway or Power Automate.
+
+---
+
+## 🤝 Acknowledgements
+ 
+- [Kaggle Dataset](https://www.kaggle.com/datasets/aurelienponcins/bixi-montreal-bike-sharing-data-2021) – open data source  
+- Icons by [FontAwesome](https://fontawesome.com) and [Twemoji](https://twemoji.twitter.com/)  
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.  
+For academic, non-commercial, and educational use only.
+
+---
+
+## 🙋‍♂️ About Me
+
+👋 Hi, I’m Tariq Ladidji, a Business Intelligence & Data Analyst.  
+I specialize in turning raw data into actionable insights through Power BI, SQL, and data modeling.
+
+- 📫 [email]tariqladidji43@gmail.com 
+- 💼 [[LinkedIn](https://www.linkedin.com/in/tariq-ladidji-b08951311/)  
+- 🌐 [Portfolio](https://yourwebsite.com) *(optional)*
+
+---
+
+Thanks for checking out this project!  
+If you found it helpful, feel free to ⭐ star the repo or connect with me!
 
 
