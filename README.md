@@ -83,27 +83,37 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
 ## 📁 Repository Structure
 📦 bixi-2021-project/
 
-├── 📁 data/
-│ ├── raw/ # Original datasets (e.g., CSVs from Kaggle)
-│ └── cleaned/ # Cleaned and pre-processed data files
+├── datasets/
+│ ├── raw/ # Original datasets from Kaggle (CSV format)
+│ └── cleaned/ # Cleaned and enriched data (optional: for backup or reproducibility)
 │
-├── 📁 sql/
-│ ├── create_tables.sql # DDL scripts for staging and gold layers
-│ ├── transformations.sql # Data transformations and view creation
-│ └── sample_queries.sql # Queries used for exploration and reporting
+├── docs/
+│ ├── etl_pipeline.drawio # ETL overview: from raw source to Power BI-ready tables
+│ ├── data_catalog.md # Description of gold layer views and fields
+│ ├── model_schema.drawio # Star schema (fact/dimensions) of the BIXI model
+│ ├── data_flow.drawio # Logical flow of data between layers
+│ ├── naming-conventions.md # Consistent table/column naming rules across layers
 │
-├── 📁 powerbi/
-│ └── BIXI_2021_Dashboard.pbix # Power BI dashboard file
+├── scripts/
+│ ├── bronze/ # Raw loading scripts (if staged locally or virtually)
+│ ├── silver/ # Scripts for cleaning, validation, and joins
+│ ├── gold/ # Business-ready views like gold.trips_2021
+│ └── exploratory_queries.sql # Useful queries for KPIs or dashboard needs
 │
-├── 📁 docs/
-│ ├── data_catalog.md # Detailed data dictionary for gold layer
-│ └── model_schema.png # ERD or star schema image (optional)
+├── powerbi/
+│ └── BIXI_2021_Dashboard.pbix # Final Power BI report file
 │
-├── 📁 assets/
-│ ├── dashboard_preview.png # Screenshot(s) of the dashboard
-│ └── station_map.png # Any additional visual content
+├── tests/
+│ └── data_quality_checks.sql # Optional: tests to validate joins, nulls, duplicates, etc.
 │
-└── README.md # Project overview and documentation
+├── assets/
+│ ├── dashboard_preview.png # Screenshot of Power BI dashboard
+│ └── station_heatmap.png # Any extra visuals (optional)
+│
+├── README.md # Main project overview and walkthrough
+├── LICENSE # MIT or open-source license (optional)
+├── .gitignore # Ignore Power BI temp files, OS-specific files, etc.
+└── requirements.txt # Notes on required tools (Power BI Desktop, SQL Server, etc.)
 
 
 ---
