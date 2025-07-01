@@ -80,41 +80,7 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
 
 ---
 
-## 📁 Repository Structure
-📦 bixi-2021-project/
 
-│
-├── datasets/
-│ └── raw/
-│ └── # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/
-│ ├── etl.drawio # ETL pipeline overview (extraction → gold)
-│ ├── data_architecture.drawio # Project architecture diagram
-│ ├── data_catalog.md # Dataset and column-level documentation
-│ ├── data_flow.drawio # Logical data flow (bronze → silver → gold)
-│ ├── data_models.drawio # Star schema or dimensional model diagram
-│ └── naming-conventions.md # Naming standards for tables, columns, and files
-│
-├── scripts/
-│ ├── bronze/ # Scripts for extracting and staging raw data
-│ ├── silver/ # Scripts for cleaning, transforming, and joining data
-│ └── gold/ # Scripts to create final business-ready views
-│
-├── tests/
-│ └── # Test scripts and data quality checks
-│
-├── powerbi/
-│ └── BIXI_2021_Dashboard.pbix # Final Power BI report file
-│
-├── assets/
-│ ├── dashboard_preview.png # Screenshot of the dashboard
-│ └── station_heatmap.png # Optional visuals for geospatial insights
-│
-├── README.md # Project documentation
-├── LICENSE # Repository license
-├── .gitignore # Git ignored files and folders
-└── requirements.txt # Tools used: Power BI, SQL Server, etc.
 
 ## 📌 Project Highlights
 
