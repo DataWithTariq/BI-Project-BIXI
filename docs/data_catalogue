@@ -1,1 +1,59 @@
+# 📚 Data Catalog – `gold.trips_2021`
 
+> **Layer**: Gold (Business/Analytics)  
+> **Type**: SQL View  
+> **Purpose**: Provides cleaned, analytics-ready data on all BIXI trips in Montreal for the year 2021.
+
+---
+
+## 🧩 Overview of Columns
+
+| 🏷️ Column Name             | 🗂️ Data Type     | 📝 Description                                                      |
+|----------------------------|------------------|----------------------------------------------------------------------|
+| `trip_end_date`            | `DATE`           | Timestamp when the trip ended.                                       |
+| `trip_duration_sec`        | `INT`            | Total duration of the trip in seconds.                               |
+| `trip_is_member`           | `BIT / BOOLEAN`  | Whether the user is a BIXI member (`1` = Yes, `0` = No).             |
+| `trip_emplacement_pk_start`| `INT`            | Foreign key to the start station.                                    |
+| `start_station_name`       | `NVARCHAR(100)`  | Human-readable name of the departure station.                        |
+| `start_station_lat`        | `FLOAT`          | Latitude coordinate of the start station.                            |
+| `start_station_lng`        | `FLOAT`          | Longitude coordinate of the start station.                           |
+| `trip_emplacement_pk_end`  | `INT`            | Foreign key to the end station.                                      |
+| `end_station_name`         | `NVARCHAR(100)`  | Human-readable name of the destination station.                      |
+| `end_station_lat`          | `FLOAT`          | Latitude coordinate of the end station.                              |
+| `end_station_lng`          | `FLOAT`          | Longitude coordinate of the end station.                             |
+
+---
+
+## 📊 Power BI Use Cases
+
+- 🚴‍♂️ **Trip Volume Analysis** by date, hour, and user type  
+- 🧭 **Popular Routes** (Start → End station paths)  
+- 📈 **Average Trip Duration** trends  
+- 🗺️ **Heatmaps** of active stations  
+- 👥 **Member vs Non-Member Behavior**
+
+---
+
+## 🔄 Suggested Enhancements
+
+- Add `trip_start_date` if available to enable full trip timeline analysis.  
+- Link station keys to a `dim_stations` table for metadata (e.g., borough, capacity).  
+- Connect to a `dim_date` table for calendar-based filters (day, week, month, season).  
+- Derive KPIs like:
+  - ⏱️ Average duration
+  - 🕓 Peak usage hours
+  - 🔄 Round-trip vs one-way patterns
+
+---
+
+### 📎 Example Query
+
+```sql
+SELECT
+    start_station_name,
+    end_station_name,
+    COUNT(*) AS trip_count,
+    AVG(trip_duration_sec) AS avg_duration
+FROM gold.trips_2021
+GROUP BY start_station_name, end_station_name
+ORDER BY trip_count DESC;
