@@ -10,7 +10,7 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
 |-------|-------------|
 | 🔍 **Data Discovery** | Found raw BIXI 2021 trip data on [Kaggle]                                        |
 | 🧹 **Data Cleaning** | Cleaned missing values, validated geospatial fields, standardized formats         |
-| 🏗️ **Data Modeling** | Modeled a star schema (fact + dimension tables), built the `gold.trips_2021` view |
+| 🏗️ **Data Modeling** | Modeleding and building of `gold.trips_2021` view |
 | 📊 **Reporting** | Developed an interactive Power BI dashboard with filters and KPIs                     |
 | 🚀 **Delivery** | Dashboard published internally / to Power BI Service (optional embed link)             |
 
@@ -19,7 +19,7 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
 ## 🧾 Dataset Summary
 
 - 📁 **Source**: Kaggle BIXI Montréal 2021  
-- 📈 **Records**: ~2.5 million bike trips  
+- 📈 **Records**: ~5.5 million bike trips  
 - 📍 **Fields**:
   - Trip timestamps (start/end)
   - Start and end station coordinates
@@ -103,7 +103,7 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
 ## 🤝 Acknowledgements
  
 - [Kaggle Dataset](https://www.kaggle.com/datasets/aurelienponcins/bixi-montreal-bike-sharing-data-2021) – open data source  
-- Icons by [FontAwesome](https://fontawesome.com) and [Twemoji](https://twemoji.twitter.com/)  
+
 
 ---
 
@@ -121,7 +121,6 @@ I specialize in turning raw data into actionable insights through Power BI, SQL,
 
 - 📫 [email](tariqladidji43@gmail)
 - 💼 [LinkedIn](https://www.linkedin.com/in/tariq-ladidji-b08951311/)
-- 🌐 [Portfolio](https://yourwebsite.com) *(optional)*
 
 ---
 
