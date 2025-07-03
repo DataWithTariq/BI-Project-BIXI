@@ -25,6 +25,7 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
   - Start and end station coordinates
   - Trip durations
   - Membership status (member vs non-member)
+![BIXI_Dashboard_UserPage](https://github.com/user-attachments/assets/8a58bcee-b195-41f1-bd8d-5808fcad3f5d)
 
 ---
 
