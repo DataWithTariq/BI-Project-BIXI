@@ -25,7 +25,6 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
   - Start and end station coordinates
   - Trip durations
   - Membership status (member vs non-member)
-![BIXI_Dashboard_UserPage](https://github.com/user-attachments/assets/8a58bcee-b195-41f1-bd8d-5808fcad3f5d)
 
 ---
 
@@ -54,8 +53,11 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
 | 🕓 Time trends | Track usage peaks by time of day and month                   |
 | 🗺️ Maps | Interactive geospatial visualizations for station activity          |
 
+[DashBoard Link](https://app.powerbi.com/view?r=eyJrIjoiZjU5YTBmYzEtM2FhNC00YTc2LWI2NGYtM2Y0NmQ1OTRkYjQxIiwidCI6ImM3OTkwYjAwLTgwNWUtNGU0OS1hZTg3LWVmY2Q2ZjBhMTc4OCJ9)
+
 📎 Screenshot example:  
-![Dashboard preview](./assets/dashboard_preview.png)
+![BIXI_Dashboard_UserPage](https://github.com/user-attachments/assets/d9116a7f-02d7-4967-8b7e-a8f3abdf451c)
+
 
 ---
 
