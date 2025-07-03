@@ -105,8 +105,8 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
 
 ## 🤝 Acknowledgements
  
-- [Kaggle Dataset](https://www.kaggle.com/datasets/aurelienponcins/bixi-montreal-bike-sharing-data-2021) – open data source  
-
+- [Kaggle Dataset](https://www.kaggle.com/datasets/camilleb469/bixi-open-data-2021/data) – open data source  
+Thanks Camille !
 
 ---
 
