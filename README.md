@@ -35,7 +35,6 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
 - **Dimension Tables**
   - `dim_stations` – enriched with station names and geo-coordinates
   - `dim_date` – calendar table with date hierarchies
-  - `dim_users` – classified by member type
 
 🧮 The main reporting view: `gold.trips_2021`
 
