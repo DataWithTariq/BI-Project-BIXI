@@ -39,7 +39,7 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
 
 🧮 The main reporting view: `gold.trips_2021`
 
-> ✅ See [📚 Data Catalog](./docs/data_catalog.md)
+> ✅ See the [data catalogue](docs/data_catalogue)
 
 ---
 
