@@ -8,7 +8,7 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
 
 | Stage | Description |
 |-------|-------------|
-| 🔍 **Data Discovery** | Found raw BIXI 2021 trip data on [Kaggle]                                        |
+| 🔍 **Data Discovery** | Found raw BIXI 2021 trip data on Kaggle                                          |
 | 🧹 **Data Cleaning** | Cleaned missing values, validated geospatial fields, standardized formats         |
 | 🏗️ **Data Modeling** | Modeleding and building of `gold.trips_2021` view |
 | 📊 **Reporting** | Developed an interactive Power BI dashboard with filters and KPIs                     |
