@@ -12,7 +12,7 @@ This repository documents a complete **Business Intelligence (BI) project**, fro
 | 🧹 **Data Cleaning** | Cleaned missing values, validated geospatial fields, standardized formats         |
 | 🏗️ **Data Modeling** | Modeleding and building of `gold.trips_2021` view |
 | 📊 **Reporting** | Developed an interactive Power BI dashboard with filters and KPIs                     |
-| 🚀 **Delivery** | Dashboard published internally / to Power BI Service (optional embed link)             |
+| 🚀 **Delivery** | Dashboard published internally / to Power BI Service            |
 
 ---
 
